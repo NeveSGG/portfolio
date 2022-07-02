@@ -1,0 +1,71 @@
+.Header {
+    color: white;
+    height: 77px;
+    width: 100%;
+    background-color: #0a192f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    position: fixed;
+    -webkit-box-shadow: 0px 0px 25px 8px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 0px 25px 8px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 0px 25px 8px rgba(0, 0, 0, 0.16);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.Header > img {
+    width: 50px;
+}
+
+.Header > img:hover {
+    cursor: pointer;
+}
+
+.Ul {
+    display: flex;
+    gap: 35px;
+    padding-right: 35px;
+}
+
+.Li {
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.Li::marker {
+    display: none;
+}
+
+.li--num {
+    color: #62f9d5;
+}
+
+.li--txt {
+    color: #8892b0;
+    transition: color .15s linear;
+}
+
+.li--txt:hover {
+    color: #62f9d5;
+}
+
+.btn {
+    background-color: #0a192f;
+    border: 2px solid #62f9d5;
+    color: #62f9d5;
+    border-radius: 5px;
+    padding: 8px 23px;
+    cursor: pointer;
+
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: #0a0920;
+}
