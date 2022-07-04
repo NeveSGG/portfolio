@@ -1,0 +1,100 @@
+.Hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 80px;
+}
+
+.content {
+    height: auto;
+}
+
+
+.hello {
+
+    color: #62f9d5;
+}
+
+.name {
+    color: #ccd6f6;
+    font-size: 66px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.whatami {
+    color: #8892b0;
+    line-height: 30px;
+    font-size: 66px;
+    font-weight: 600;
+    padding-right: 80px;
+}
+
+.description {
+    color: #8892b0;
+    font-size: 19px;
+    max-width: 560px;
+    padding-top: 20px;
+    padding-bottom: 30px
+}
+
+.herobtn {
+    padding: 14px 23px;
+}
+
+@media screen and (min-width: 835px) and (max-width: 1350px) {m
+    .name {
+        
+        line-height: 50px;
+    }
+    .whatami {
+        line-height: 66px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 835px) {
+    .name {
+        font-size: 8.2vw;
+        line-height: 50px;
+    }
+    .whatami {
+        font-size: 8.2vw;
+        line-height: 50px;
+    }
+    .Hero {
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .name {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .whatami {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .Hero {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .name {
+        line-height: 10px;
+    }
+    .whatami {
+        line-height: 35px;
+    }
+    .description {
+        font-size: 15px;
+        padding-top: 0;
+        padding-bottom: 15px
+    }
+    .herobtn {
+        font-size: 14px;
+    }
+
+}
