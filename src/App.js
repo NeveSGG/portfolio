@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Links from './components/Links';
 
 function App() {
   return (
@@ -7,8 +8,7 @@ function App() {
       <Header />
       <Hero />
       <Hero />
-      <Hero />
-      <Hero />
+      <Links />
     </div>
   );
 }

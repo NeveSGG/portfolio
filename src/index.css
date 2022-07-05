@@ -26,6 +26,10 @@ body {
     sans-serif;
 }
 
+.disable-scroll {
+  overflow-y: hidden;
+}
+
 body::-webkit-scrollbar {
   width: 11px;               /* width of the entire scrollbar */
   z-index: -9000;
