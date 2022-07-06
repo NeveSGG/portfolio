@@ -1,0 +1,34 @@
+.about {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.about-title-num {
+    color: #62f9d5;
+    font-size: 23.5px;
+}
+
+.about--text-title {
+    text-justify: end;
+    text-align: end;
+    gap: 10px;
+    color: #ccd6f6;
+    display: flex;
+}
+
+.about-title-title {
+}
+
+.about--text {
+    width: 600px;
+}
+
+.about--list {
+    display: flex;
+}
+
+.about--image {
+    width: 300px;
+}
