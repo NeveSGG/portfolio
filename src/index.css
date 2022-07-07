@@ -45,3 +45,15 @@ body::-webkit-scrollbar-thumb {
   border: 3px solid #0a192f;  /* creates padding around scroll thumb */
 }
 
+.customLink {
+  color: #62f9d5;
+  text-decoration: none;
+  background: no-repeat 0 100%;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 2px;
+  transition: background-size .3s ease;
+}
+
+.customLink:hover, .customLink:focus {
+  background-size: 100% 2px;
+}
