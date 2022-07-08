@@ -1,0 +1,75 @@
+.Experience {
+    width: 850px;
+    margin: 15em auto;
+}
+
+.Menu {
+    display: flex;
+    padding-top: 30px;
+}
+
+.menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
+
+.menu-name-wrapper {
+    height: 45px;
+    color: #8892b0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.menu-name-wrapper:hover {
+    color: #62f9d5;
+    background-color: #112240;
+}
+
+.menu-name {
+    font-size: 14px;
+    padding-right: 20px;
+}
+
+.colorGr {
+    color: #62f9d5;
+}
+
+.chngbg {
+    background-color: #112240;
+}
+
+.linesWrapper {
+    position: relative;
+}
+
+.liveLine {
+    position: absolute;
+    width: 3px;
+    border-left: 3px solid #62f9d5;
+    height: 45px;
+    transform: translateY(0);
+    transition: transform 0.3s ease;
+}
+
+.transY2 {
+    transform: translateY(100%);
+}
+
+.transY3 {
+    transform: translateY(200%);
+}
+
+.transY4 {
+    transform: translateY(300%);
+}
+
+.grayLineForBack {
+    position: absolute;
+    width: 3px;
+    height: calc(45px * 4);
+    border-left: 3px solid #223453;
+}
+
