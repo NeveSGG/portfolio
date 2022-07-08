@@ -1,0 +1,25 @@
+.Menu {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
+
+.menu-name-wrapper {
+    color: #8892b0;
+    cursor: pointer;
+}
+
+.menu-name-wrapper:hover {
+    color: #62f9d5;
+    background-color: #112240;
+}
+
+.menu-name {
+    font-size: 14px;
+    padding-right: 10px;
+    text-align: end;
+}
+
+.colorGr {
+    color: #62f9d5;
+}
