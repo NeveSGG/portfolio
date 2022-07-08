@@ -1,0 +1,57 @@
+.ExpDesc{
+    padding-left: 40px;
+}
+
+.expdesc--name{
+    display: flex;
+    gap: 6px;
+}
+
+.expdesc--name-name{
+    font-size: 19px;
+    color: #ccd6f6;
+    margin-bottom: -5px;
+}
+
+.expdesc--name-name-2{
+    font-size: 19px;
+    color: #62f9d5;
+    margin-bottom: -5px;
+}
+
+.expdesc--date {
+    
+}
+
+.expdesc--date-text{
+    color: #8892b0;
+    font-size: 14px;
+}
+
+.expdesc--list {
+    margin-left: 10px;
+    margin:  0;
+    padding: 0 0.5em;
+    list-style: none;
+}
+
+.expdesc--list-li {
+    padding-left: 10px;
+}
+
+.expdesc--list-li::marker {
+    content: "\2023";
+    color:#62f9d5;
+}
+
+.expdesc--list-li-text {
+    color: #8892b0;
+    font-size: 16px;
+}
+
+@media (max-width: 485px) {
+    .ExpDesc{
+        padding-left: 5px;
+        padding-top: 20px;
+    }
+}

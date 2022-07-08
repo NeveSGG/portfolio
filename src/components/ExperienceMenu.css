@@ -1,11 +1,16 @@
 .Experience {
-    width: 850px;
+    max-width: 750px;
+    width: auto;
     margin: 15em auto;
 }
 
 .Menu {
     display: flex;
     padding-top: 30px;
+}
+
+.wrapperwrwr {
+    display: flex;
 }
 
 .menu-wrapper {
@@ -73,3 +78,85 @@
     border-left: 3px solid #223453;
 }
 
+@media (min-width: 571px) and (max-width: 800px) {
+    .Experience {
+        margin: 15em 15px;
+    }
+}
+
+@media (min-width: 485px) and (max-width: 571px) {
+    .Experience {
+        margin: 15em 15px;
+    }
+
+    .menu-wrapper {
+        width: 120px;
+    }
+}
+
+@media (max-width: 485px) {
+    .Experience {
+        margin: 15em 5px;
+    }
+
+    .menu-wrapper {
+        padding: 0 0;
+        width: auto;
+        flex-direction: row;
+    }
+
+    .wrapperwrwr{
+        flex-direction: column;
+    }
+
+    .Menu {
+        position: relative;
+        padding-top: 0;
+        height: 48px;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .menu-name {
+        padding-right: 0;
+    }
+
+    .linesWrapper {
+        position: absolute;
+        left: 0px;
+        top: 45px;
+    }
+
+    .liveLine {
+        height: 3px;
+        width: 120px;
+        border-top: 3px solid #62f9d5;
+        border-left: none;
+        transform: translateX(0);
+    }
+
+    .transY2 {
+        transform: translateX(100%);
+    }
+    
+    .transY3 {
+        transform: translateX(200%);
+    }
+    
+    .transY4 {
+        transform: translateX(300%);
+    }
+
+    .grayLineForBack {
+        position: absolute;
+        height: 3px;
+        width: calc(120px * 4);
+        border-top: 3px solid #223453;
+        border-left: none;
+    }
+
+    .menu-name-wrapper {
+        width: 120px;
+        justify-content: center;
+    }
+}
