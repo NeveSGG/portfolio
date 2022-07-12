@@ -18,7 +18,10 @@ export default function WorkRight() {
     return (
         <div className="work--rightside">
 
-                <div className="work--content">
+
+            
+
+                {/* <div className="work--content">
 
                     <div className="content--photo--right">
                         <img src={siteImg} className='content--photo-img'></img>
@@ -62,7 +65,7 @@ export default function WorkRight() {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
 
         </div>
     )
