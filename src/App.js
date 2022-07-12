@@ -5,6 +5,8 @@ import Links from './components/Links';
 import ExperienceMenu from './components/ExperienceMenu';
 import Work from './components/Work';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       <About/>
       <ExperienceMenu/>
       <Projects />
+      <Contact />
       <Links />
+      <Footer />
     </div>
   );
 }

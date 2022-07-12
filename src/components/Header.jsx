@@ -42,8 +42,8 @@ export default function Header() {
     return(
         <div 
             className={classNames(
-                'trans-shadow pos-fixed Header',
-                scrollPosition['scrollDirection'] < 0 ? 'disp-none' : ('disp-inline trans-disp', 
+                'Header trans-shadow pos-fixed',
+                scrollPosition['scrollDirection'] < 0 ? 'Header--hide' : ('Header--show', 
                 scrollPosition['scrollPosition'] > 0 ? 'header--shadow opac' : 'header--shadow-none')
                 
                 )

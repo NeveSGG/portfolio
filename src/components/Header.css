@@ -4,29 +4,25 @@
     height: 77px;
     width: 100%;
     background-color: rgba(10, 25, 47, 0.97);
-    
-    display: inline;
+    transform: translateY(50);
+    transition: all 0.3s ease;
 }
 
 .Header--logotip{
     width: 45px;
 }
 
-.trans-disp {
-    
+.Header--hide{
+    transform: translateY(-100%);
+}
+
+.Header--show{
+    transform: translateY(0);
 }
 
 .opac {
     background-color: rgba(10, 25, 47, 0.97);
     
-}
-
-.disp-none {
-    display: none;
-}
-
-.disp-inline {
-    display: inline;
 }
 
 .header--shadow {
@@ -44,11 +40,6 @@
 
 .trans-shadow {
     transition: box-shadow 0.3s;
-}
-
-.pos-fixed {
-    position: fixed;
-    top: 0;
 }
 
 .header--wrapper {
