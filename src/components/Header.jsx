@@ -50,24 +50,34 @@ export default function Header() {
             }
         >
             <div className='header--wrapper'>
-                <img src={LogoSVG} alt=''/>
+                <a href='#Hero' className='Header--logo'>
+                    <img src={LogoSVG} alt='' className='Header--logotip'/>
+                </a>
                 <nav>
                     <ul className='Ul'>
                         <li className='Li'>
-                            <p className='li--num code'>01.</p>
-                            <p className='li--txt code'>About</p>
+                            <a href="#About" className='Li-element'>
+                                <p className='li--num code'>01.</p>
+                                <p className='li--txt code'>About</p>
+                            </a>
                         </li>
                         <li className='Li'>
-                            <p className='li--num code'>02.</p>
-                            <p className='li--txt code'>Experience</p>
+                            <a href="#Experience" className='Li-element'>
+                                <p className='li--num code'>02.</p>
+                                <p className='li--txt code'>Experience</p>
+                            </a>
                         </li>
                         <li className='Li'>
-                            <p className='li--num code'>03.</p>
-                            <p className='li--txt code'>Work</p>
+                            <a href="#Work" className='Li-element'>
+                                <p className='li--num code'>03.</p>
+                                <p className='li--txt code'>Work</p>
+                            </a>
                         </li>
                         <li className='Li'>
-                            <p className='li--num code'>04.</p>
-                            <p className='li--txt code'>Contact</p>
+                            <a href="#Contact" className='Li-element'>
+                                <p className='li--num code'>04.</p>
+                                <p className='li--txt code'>Contact</p>
+                            </a>
                         </li>
                     </ul>
                     <button className='code headbtn'>Resume</button>

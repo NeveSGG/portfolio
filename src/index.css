@@ -9,6 +9,14 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+a{
+  text-decoration: none;
+}
+
 .code {
   font-family: 'Space Mono', monospace;
 }

@@ -1,0 +1,141 @@
+.Work{
+    max-width: 1000px;
+    min-width: 800px;
+    margin: 2em auto 20px auto;
+}
+
+.work--rightside{
+    padding-bottom: 30px;
+}
+
+.work--leftside{
+    padding-bottom: 30px;
+}
+
+.work--content{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.content--photo--right{
+    position: relative;
+    margin-top: 40px;
+    width: 55%;
+}
+
+.content--photo--left{
+    position: relative;
+    margin-top: 40px;
+    margin-left: auto;
+    width: 55%;
+}
+
+.content--photo-img{
+    border-radius: 5px;
+    width: 100%
+}
+
+.content--description{
+    min-height: 365px;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content--description--text{
+    color:#62f9d5;
+    text-align: end;
+    font-size: 14px;
+    margin-bottom: -19px;
+}
+
+.content--description--name{
+    color: #ccd6f6;
+    text-align: end;
+}
+
+.content--description--text--left{
+    color:#62f9d5;
+    text-align: start;
+    font-size: 14px;
+    margin-bottom: -19px;
+}
+
+.content--description--name--left{
+    color: #ccd6f6;
+    text-align: start;
+}
+
+.description--text-wrapper {
+    width:55%;
+    margin-left: auto;
+    margin-right: 0;
+    border-radius: 5px;
+    background-color: #112240;
+    padding: 10px 23px;
+}
+
+.description--text-wrapper--left {
+    width:55%;
+    margin-left: 0;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: #112240;
+    padding: 10px 23px;
+}
+
+.main-text--description{
+    text-align: end;
+    color: #99a4c4;
+}
+
+.main-text--description--left{
+    text-align: start;
+    color: #99a4c4;
+}
+
+.description--technologies-wrapper{
+    display: flex;
+    justify-content: end;
+    gap: 25px;
+}
+
+.description--technologies-wrapper--left{
+    display: flex;
+    justify-content: start;
+    gap: 25px;
+}
+
+.description--technologies-text {
+    font-size: 14px;
+    color: #99a4c4;
+}
+
+.description--icons {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.description--icons--left {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.description--icon{
+    width: 25px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1220px){
+    .Work{
+        min-width: 800px;
+        max-width: 700px;
+    }
+}

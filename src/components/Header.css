@@ -8,6 +8,10 @@
     display: inline;
 }
 
+.Header--logotip{
+    width: 45px;
+}
+
 .trans-disp {
     
 }
@@ -83,6 +87,15 @@ nav {
 
 .Li::marker {
     display: none;
+}
+
+.Li-element {
+    display: flex;
+    gap: 5px;
+}
+
+.Li-element:hover {
+    color: #62f9d5;
 }
 
 .li--num {

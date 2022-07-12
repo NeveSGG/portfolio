@@ -9,7 +9,7 @@ export default function About() {
 
 
     return (
-        <div>
+        <div id='About'>
             <div className='about'>
 
                 <div className='about--text'>

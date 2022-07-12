@@ -1,0 +1,18 @@
+.Projects{
+    padding-top: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-title{
+    color: #ccd6f6;
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-gap: 16px;
+    padding: 16px;
+    
+}

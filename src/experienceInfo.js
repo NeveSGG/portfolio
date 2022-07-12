@@ -1,4 +1,4 @@
-export default {
+const data = {
     School : {
         Name : "High school",
         LinkToPlace : "https://гимназия117.рф/",
@@ -29,3 +29,5 @@ export default {
         Info : ["This is a great place to develop teamwork skills to create projects, as well as to develop your own skills"]
     }
 }
+
+export default data 

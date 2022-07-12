@@ -2,7 +2,7 @@ import './Hero.css'
 
 export default function Hero () {
     return (
-        <section className='Hero'>
+        <section className='Hero' id="Hero">
             <div className='content'>
                 <p className='hello code'>Hi, my name is</p>
                 <h1 className='name justText'>Neverov Stepan.</h1>

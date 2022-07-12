@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import './ExperienceMenu.css'
 import data from '../experienceInfo'
 import ExperienceDesc from './ExperienceDesc'
@@ -9,7 +9,7 @@ export default function ExperienceMenu () {
     const [classForLine, setClassForLine] = useState('liveLine')
 
     return (
-        <div className='Experience'>
+        <div className='Experience' id='Experience'>
 
             <div className='about--text-title'>
                 <p className='code about-title-num'>02.</p>
