@@ -5,6 +5,7 @@ import tab1 from '../imgs/icons/tabIcon.png'
 import git2 from '../imgs/icons/gitIcon2.png'
 import tab2 from '../imgs/icons/tabIcon2.png'
 import { useState } from "react"
+import Fade from 'react-reveal/Fade'
 
 export default function WorkLeft() {
 
@@ -16,21 +17,22 @@ export default function WorkLeft() {
     };
 
     return (
+        <Fade delay={200}>
         <div className="work--leftside">
 
                 <div className="work--content">
 
                     <div className="content--description">
-                        <p className="code content--description--text--left">Solo Project</p>
-                        <h1 className="justText content--description--name--left">Weather Forecast APP</h1>
+                        <p className="montText content--description--text--left">Solo Project</p>
+                        <a href='https://waterdrops.netlify.app/'><h1 className="ibmText content--description--name--left">Прогноз Погоды</h1></a>
                         <div className="description--text-wrapper--left">
-                            <p className="justText main-text--description--left">A minimal dark-blue web application to check the weather. Works with any places of the world.</p>
+                            <p className="ibmText main-text--description--left">Минималистичное веб приложение в сине-серых тонах для проверки прогноза погоды. Работает со всеми городами и странами мира.</p>
                         </div>
                         <div className="description--technologies-wrapper--left">
-                            <p className="code description--technologies-text">React</p>
-                            <p className="code description--technologies-text">API</p>
-                            <p className="code description--technologies-text">Npm</p>
-                            <p className="code description--technologies-text">VS Code</p>
+                            <p className="montText description--technologies-text">React</p>
+                            <p className="montText description--technologies-text">API</p>
+                            <p className="montText description--technologies-text">Npm</p>
+                            <p className="montText description--technologies-text">VS Code</p>
                         </div>
 
                         <div className="description--icons--left">
@@ -60,9 +62,11 @@ export default function WorkLeft() {
 
                     <div className="content--photo--left">
                         <img src={siteImg} className='content--photo-img'></img>
+                        <div className="content--photo-cover"></div>
                     </div>
                 </div>
                 
             </div>
+        </Fade>
     )
 }

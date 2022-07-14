@@ -2,7 +2,7 @@
     margin-top: 100px;
     display: flex;
     justify-content: center;
-    padding: 5rem 4rem;
+    padding: 5rem 2.5rem 5rem 4rem;
 }
 
 .about--text {
@@ -16,7 +16,7 @@
 
 .about-title-num {
     color: #62f9d5;
-    font-size: 23.5px;
+    font-size: 25px;
 }
 
 .about-title-title {
@@ -82,10 +82,10 @@
 .about--photo {
     position: relative;
     overflow: hidden;
-    width:350px;
+    width:320px;
     height:400px;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 20px;
     z-index: 0;
 }
 
@@ -148,13 +148,13 @@
     display: none;
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 1040px) {
     .about--photo-2 {
         display: none;
     }    
 }
 
-@media screen and (max-width: 949px) {
+@media screen and (max-width: 1039px) {
     .about--photo {
         display: none;
     }

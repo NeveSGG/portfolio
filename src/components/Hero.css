@@ -52,6 +52,7 @@
 
 .herobtn {
     padding: 14px 23px;
+    font-weight: 400;
 }
 
 @media screen and (min-width: 835px) and (max-width: 1350px) {m

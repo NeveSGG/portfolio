@@ -91,10 +91,12 @@ nav {
 
 .li--num {
     color: #62f9d5;
+    font-size: 15px;
 }
 
 .li--txt {
     color: #8892b0;
+    font-size: 16.6px;
     transition: color .15s linear;
 }
 
@@ -110,8 +112,8 @@ nav {
     padding: 10px 23px;
     cursor: pointer;
 
-    font-size: 16px;
-    font-weight: 100;
+    font-size: 17px;
+    font-weight: 300;
 }
 
 .headbtn:hover {
@@ -134,7 +136,7 @@ nav {
     background-color: #0a0920;
 }
 
-@media screen and (max-width: 835px) {
+@media screen and (max-width: 915px) {
     .Ul {
         display: none;
     }
@@ -154,8 +156,8 @@ nav {
     display: none;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     cursor: pointer;
     transition: all .5s ease-in-out;
     z-index: 2;
@@ -180,10 +182,10 @@ nav {
     transition: all .5s ease-in-out;
   }
   .menu-btn__burger::before {
-    transform: translateY(-16px);
+    transform: translateY(-12px);
   }
   .menu-btn__burger::after {
-    transform: translateY(16px);
+    transform: translateY(12px);
   }
   .menu-btn.open .menu-btn__burger {
     transform: translateX(-50px);
@@ -197,7 +199,7 @@ nav {
     transform: rotate(-45deg) translate(35px, 35px);
   }
   
-  @media screen and (max-width: 835px) {
+  @media screen and (max-width: 915px) {
     .menu-btn {
         display: flex;
     }
@@ -252,11 +254,11 @@ nav {
     padding-bottom: 30px;
 }
 
-.Li-mob > .li--num {
-    font-size: 13px;
+.Li-mob > .Li-element > .li--num {
+    font-size: 17px;
 }
 
-.Li-mob > .li--txt {
+.Li-mob > .Li-element > .li--txt {
     font-size: 17px;
 }
 
@@ -273,14 +275,18 @@ nav {
     cursor: pointer;
     
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .btn-mob:hover {
     background-color: #0a0920;
 }
 
-@media screen and (min-width: 835px) {
+.green{
+    color:#62f9d5;
+}
+
+@media screen and (min-width: 915px) {
     .mobile--nav-wrapper {
         display: none
     }

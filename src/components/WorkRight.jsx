@@ -5,6 +5,7 @@ import tab1 from '../imgs/icons/tabIcon.png'
 import git2 from '../imgs/icons/gitIcon2.png'
 import tab2 from '../imgs/icons/tabIcon2.png'
 import { useState } from "react"
+import Fade from 'react-reveal/Fade'
 
 export default function WorkRight() {
 
@@ -16,28 +17,27 @@ export default function WorkRight() {
     };
 
     return (
+        <Fade>
         <div className="work--rightside">
 
-
-            
-
-                {/* <div className="work--content">
+                <div className="work--content">
 
                     <div className="content--photo--right">
                         <img src={siteImg} className='content--photo-img'></img>
+                        <div className="content--photo-cover"></div>
                     </div>
 
 
                     <div className="content--description">
-                        <p className="code content--description--text">Solo Project</p>
-                        <h1 className="justText content--description--name">Personal Blog</h1>
+                        <p className="montText content--description--text">Solo Project</p>
+                        <a href="http://neverovblog.site/"><h1 className="ibmText content--description--name">Персональный Блог</h1></a>
                         <div className="description--text-wrapper">
-                            <p className="justText main-text--description">Responsive personal blog without database but with modern design. If you are interested in me creating the same website for you or with a different design, you can email me (click on the link on the right)</p>
+                            <p className="ibmText main-text--description">Адаптивный персональный блог без базы данных но с современным дизайном. Если вы заинтересованы в том, чтобы я сделал для вас такой же сайт или с другим дизайном, вы можете написать мне на почту <a className="customLink ibmText" href='mailto:neverovsg@gmail.com'>neverovsg@gmail.com</a>.</p>
                         </div>
                         <div className="description--technologies-wrapper">
-                            <p className="code description--technologies-text">Vue.js</p>
-                            <p className="code description--technologies-text">Sass</p>
-                            <p className="code description--technologies-text">Brackets</p>
+                            <p className="montText description--technologies-text">Vue.js</p>
+                            <p className="montText description--technologies-text">Sass</p>
+                            <p className="montText description--technologies-text">Brackets</p>
                         </div>
 
                         <div className="description--icons">
@@ -65,8 +65,9 @@ export default function WorkRight() {
                         </div>
                     </div>
 
-                </div> */}
+                </div>
 
         </div>
+        </Fade>
     )
 }

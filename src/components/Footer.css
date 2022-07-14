@@ -3,7 +3,7 @@
     position:absolute;
     width: 100%;
     color: #8892b0;
-    bottom: 0px;
+    bottom: 10px;
     margin: 0 auto;
     font-size: 13px;
 }
@@ -17,4 +17,41 @@
 
 .footer-text2{
     text-align: center;
+}
+
+.footer--links{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    
+}
+
+.footer--links-img{
+    transform: translateY(0);
+    transition: transform .3s ease;
+    width: 25px;
+    
+}
+
+.footer--links-email{
+    font-size: 13px;
+    color: #8892b0;
+    text-align: center;
+    margin-top: -6px;
+}
+
+.footer--links-img:hover{
+    transform: translateY(-30%);
+}
+
+.footer--links-email:hover{
+    color:#62f9d5;
+}
+
+@media (max-width: 420px) {
+    .Footer{
+        display: none;
+    }
 }

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './ExperienceMenu.css'
 import data from '../experienceInfo'
 import ExperienceDesc from './ExperienceDesc'
+import Fade from 'react-reveal/Fade'
 
 export default function ExperienceMenu () {
 
@@ -9,11 +10,12 @@ export default function ExperienceMenu () {
     const [classForLine, setClassForLine] = useState('liveLine')
 
     return (
+        <Fade>
         <div className='Experience' id='Experience'>
 
             <div className='about--text-title'>
                 <p className='code about-title-num'>02.</p>
-                <h1 className='justText about-title-title'>Experience</h1>
+                <h1 className='ibmText about-title-title'>Опыт</h1>
                 <div className='vertical-line'></div>
             </div>
 
@@ -29,7 +31,7 @@ export default function ExperienceMenu () {
                             }}
                             className={uderlined==='School' ? 'menu-name-wrapper chngbg' : 'menu-name-wrapper'}
                         >
-                            <p className={uderlined==='School' ? 'code menu-name colorGr' : 'code menu-name'}>School</p>
+                            <p className={uderlined==='School' ? 'montText menu-name colorGr' : 'montText menu-name'}>Школа</p>
                         </div>
 
                         <div
@@ -40,7 +42,7 @@ export default function ExperienceMenu () {
                             }}
                             className={uderlined==='University' ? 'menu-name-wrapper chngbg' : 'menu-name-wrapper'}
                         >
-                            <p className={uderlined==='University' ? 'code menu-name colorGr' : 'code menu-name'}>University</p>
+                            <p className={uderlined==='University' ? 'montText menu-name colorGr' : 'montText menu-name'}>Университет</p>
                         </div>
 
                         <div
@@ -51,7 +53,7 @@ export default function ExperienceMenu () {
                             }}
                             className={uderlined==='Courses' ? 'menu-name-wrapper chngbg' : 'menu-name-wrapper'}
                         >
-                            <p className={uderlined==='Courses' ? 'code menu-name colorGr' : 'code menu-name'}>Courses</p>
+                            <p className={uderlined==='Courses' ? 'montText menu-name colorGr' : 'montText menu-name'}>Курсы</p>
                         </div>
 
                         <div
@@ -61,7 +63,7 @@ export default function ExperienceMenu () {
                             }}
                             className={uderlined==='Internship' ? 'menu-name-wrapper chngbg' : 'menu-name-wrapper'}
                         >
-                            <p className={uderlined==='Internship' ? 'code menu-name colorGr' : 'code menu-name'}>Internship</p>
+                            <p className={uderlined==='Internship' ? 'montText menu-name colorGr' : 'montText menu-name'}>Практика</p>
                         </div>
                     </div>
 
@@ -74,12 +76,11 @@ export default function ExperienceMenu () {
 
                 <ExperienceDesc 
                     {...data[uderlined]}
-                        
                 />
 
             </div>
 
         </div>
-
+        </Fade>
     )
 }

@@ -1,32 +1,32 @@
 const data = {
     School : {
-        Name : "High school",
+        Name : "Старшие классы",
         LinkToPlace : "https://гимназия117.рф/",
-        MaskForLink : "Gymnasium 117",
-        Date : "September 2018 - May 2020",
-        Info : ["I have been interested in computer science since childhood, I was interested in how websites work and who creates them. That's why I had good grades in computer science and mathematics.", "In this regard, I chose computer science as an additional subject of the Unified State Exam and passed it by 96 points out of 100.", "Choosing a university, I decided to enroll in Omsk State Technical University"]
+        MaskForLink : "Гимназия 117",
+        Date : "Сентябрь 2018 - Май 2020",
+        Info : ["С детства мне нравилась информатика, я был заинтересован кто и как создаёт сайты. Поэтому у меня были хорошие оценки по информатике и математике.", "В связи с этим, Я выбрал информатику как дополнительный экзамен на ЕГЭ и сдал её на 96 баллов.", "Выбирая университет, я решил поступить в Омский Государственный Технический Университет на направление 'Программная инженерия'"]
     },
 
     University : {
-        Name : "OmGTU University",
+        Name : "Политех",
         LinkToPlace : "https://www.omgtu.ru/",
-        MaskForLink : "OmGTU",
-        Date : "September 2020 - May 2024",
-        Info : ["Today I am studying in the 3rd year of the university, in the direction of 'Software Engineering'", "Here we are studying how mobile, desktop and web applications are created", "I spend my free time exploring the possibilities of ReactJS, as well as training in creating websites"]
+        MaskForLink : "ОмГТУ",
+        Date : "Сентябрь 2020 - Май 2024",
+        Info : ["Сегодня я учусь на 3 курсе по направлению 'Программная инженерия'", "Здесь мы изучаем как создаются десктопные, мобильные и веб приложения", "Своё свободное время я трачу на изучение возможностей Реакта, а также тренируюсь в написании сайтов"]
     },
 
     Courses : {
-        Name : "My top-3 courses",
-        Date : "September 2020 - Present",
-        Info : ["In the first place among my top 3 most useful and convenient courses for learning ReactJS is Scrimba. The free course on learning the basics allows you to study React with interest and add several projects to your portfolio.", "In second place, I placed the free course 'The Way of the Samurai' on the YouTube platform. Having studied everything the presenter talks about, you will become a valuable junior developer.", "In third place in my top 3 is the course of the same author as in second place. This is a course called 'The Way of the Samurai 2.0'. It continues the in-depth study of React"]
+        Name : "Мой top-3 курсов",
+        Date : "Сентябрь 2021 - Сегодня",
+        Info : ["На первом месте в моём top-3 наиболее полезных и удобных курсов по изучению Реакта - это Scrimba. Бесплатный курс по изучению основ позволит вам узнать, как работает Реакт и добавить несколько проектов в своё портфолио.", "На втором месте я расположил курс 'Путь Самурая' на YouTube. Изучив всё, о чем расскажет автор, вы сможете смело называть себя junior front-end разработчиком.", "На третьем месте я расположил продолжение второго курса 'Путь самурая 2.0'. На нём вы укрепите свои знания TypeScript и дополните их новыми."]
     },
 
     Internship : {
-        Name : "Students` IT-Laboratory",
+        Name : "Студенческая IT-Лаборатория",
         LinkToPlace : "http://studentlabs.ru/",
         MaskForLink : "Student Labs 2022",
-        Date : "July - September 2022",
-        Info : ["This is a great place to develop teamwork skills to create projects, as well as to develop your own skills"]
+        Date : "Июль - Сентябрь 2022",
+        Info : ["Где набраться опыта перед трудоустройством? Отличным вариантом является прорхождение практики.", "Пройдя вступительные задания, я начал практику в Student Labs и не жалею об этом", "Здесь я работаю в команде и сотрудничаю с такими компаниями как Effective и Asmart"]
     }
 }
 

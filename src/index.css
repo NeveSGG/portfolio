@@ -25,6 +25,18 @@ a{
   font-family: 'Kantumruy Pro', sans-serif;
 }
 
+.ibmText {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.montText {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.playText {
+  font-family: 'Playfair Display', serif;
+}
+
 body {
   background-color: #0a192f;
   position: relative;
